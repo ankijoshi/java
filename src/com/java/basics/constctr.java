@@ -18,8 +18,11 @@ public class constctr {
 	}
 
 	public static void main(String[] args) {
+		@SuppressWarnings("unused")
 		constctr c = new constctr();
+		@SuppressWarnings("unused")
 		constctr c1 = new constctr(22.1);
+		@SuppressWarnings("unused")
 		constctr c2 = new constctr("Aru", 25);
 	}
 }

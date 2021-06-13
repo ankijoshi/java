@@ -1,4 +1,4 @@
-package com.java.basics;
+package everyday.misc;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

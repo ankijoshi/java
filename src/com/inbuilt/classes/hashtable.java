@@ -2,11 +2,12 @@ package com.inbuilt.classes;
 
 import java.util.Hashtable;
 
-public class hashtable {
+public class hashtable {			//simple Hashtable object
+	 								//Enter any value in Key Value format
 
 	public static void main(String[] args) {
-		Hashtable h = new Hashtable();
-		
+		Hashtable<Integer, Object> h = new Hashtable<Integer, Object>(); 
+									//generic added
 		h.put(1, "hellos");
 		h.put(2, 'A');
 		h.put(3, 145.34);

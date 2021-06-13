@@ -6,14 +6,14 @@ import java.util.Iterator;
 public class IteratorAdv {
 
 	public static void main(String[] args) {
-		ArrayList ar = new ArrayList();
+		ArrayList<Object> ar = new ArrayList<Object>();
 		
 		ar.add(25);
 		ar.add(56);
 		ar.add(45);
 		ar.add(67);
 		
-		Iterator it = ar.iterator();
+		Iterator<Object> it = ar.iterator();
 		
 		while(it.hasNext()) {
 			Integer i = (Integer) it.next();
