@@ -3,7 +3,7 @@ package com.inbuilt.classes;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class iterators {
+public class Iterators {
 
 	public static void main(String[] args) {
 		ArrayList<Object> ar = new ArrayList<Object>();

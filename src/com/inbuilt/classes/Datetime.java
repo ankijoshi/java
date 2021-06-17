@@ -3,7 +3,7 @@ package com.inbuilt.classes;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class dateTime {
+public class Datetime {
 
 	public static void main (String a[]) {
 		LocalDateTime date = LocalDateTime.now();

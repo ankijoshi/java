@@ -2,7 +2,7 @@ package com.inbuilt.classes;
 
 import java.util.Scanner;
 
-public class scanner {
+public class Scanners {
 
 	public static void main(String[] args) throws InterruptedException {
 		
