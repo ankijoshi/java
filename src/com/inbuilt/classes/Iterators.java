@@ -10,14 +10,22 @@ public class Iterators {
 		// this array list is without generics
 		
 		ar.add(34);
-		ar.add("hello");
-		ar.add(35.9);
+		ar.add(67);
+		ar.add(35);
+		ar.add(56);
+		ar.add(23);
 		
 		Iterator<Object> it = ar.iterator();
 		// Iterator is also without generic :-D
 		
 		while(it.hasNext()) {
-			System.out.println(it.next());
-		}
+		      Integer i = (Integer) it.next();
+		      if(i >50) {
+		        it.remove();
+		      }
+		    }
+		    System.out.println(ar);
 	}
+	
+	
 }

@@ -11,6 +11,7 @@ public class Arraylist {
 	ar.add("asdf");
 	ar.add("world");
 	ar.add("yahoo");
+	ar.add("asdf");
 	ar.remove(3);
 	
 	System.out.println(ar); 			//Printing FULL at once--print all
