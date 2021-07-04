@@ -12,18 +12,21 @@ public class Hashmap {
 		h.put(3, 87);
 		h.put(4, "yeee");
 		h.put(5, 34.55);
+		h.put(6, "wow");
 		
-		for(Object s : h.keySet()) {			//**********************ye kya tha?
+		System.out.println(h);					//printing Horizontal
+		
+		for(Object s : h.keySet()) {			//printing Vertical
 			System.out.println(s+": "+h.get(s));
 		}
-		System.out.println();
-		System.out.println(h);
-		h.replace(3, h);
+		System.out.println();					//Blank Space
+		h.replace(3, h);						//Replaced index 3.
 		System.out.println(h);
 		System.out.println(h.get(5));
 		h.clear();
 		System.out.println(h);
 		
+
 
 	}
 

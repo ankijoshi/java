@@ -5,8 +5,8 @@ public class Magic {
 	//public static void main(String[] args) {
 		static
 		{
-		System.out.print ("Real's JavaHowTo"); 
-        System.exit(0);
+		System.out.println ("Real's JavaHowTo"); 
+        //System.exit(0);
 		
 	}
 

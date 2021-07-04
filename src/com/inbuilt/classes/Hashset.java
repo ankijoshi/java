@@ -12,12 +12,12 @@ public class Hashset {
 		hs.add("efg");
 		hs.add("xyz");
 		
-		System.out.println(hs);
-		System.out.println(hs.contains("asdf"));
-		System.out.println(hs.contains("xyz"));
-		System.out.println("\n******************************\n");
+		System.out.println(hs);					//Horizontal print
+		System.out.println(hs.contains("asdf"));//false
+		System.out.println(hs.contains("xyz"));	//true
+		System.out.println("\n******************************\n");	//new line
 		
-		for(String s:hs) {						//*****************for-each Loop
+		for(String s:hs) {						//for-each Loop
 			System.out.println(s);
 		}
 		

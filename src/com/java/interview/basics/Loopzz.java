@@ -5,10 +5,10 @@ package com.java.interview.basics;
 public class Loopzz {
 
 	public static void main(String[] args) {
-		//IfReplaced(5);
+		IfReplaced(5);
 		//loop2();
 		//loop3();
-		loop4();
+		//loop4();
 	}
 	
 	public static void IfReplaced(int i) {	//Ternary operator
@@ -29,8 +29,8 @@ public class Loopzz {
 			}
 			System.out.println(i);
 		}	
-	}
-	public static void loop4() {			//Printing all Array--New Loop
+	}				 //forEach
+	public static void loop4() {			//Printing all Array--New Loop called forEach
 		String[] cars = {"Tesla", "BMW", "Honda", "Suzuki"};
 		for(String i: cars) {
 			System.out.println(i);

@@ -20,8 +20,12 @@ public class Linkedlist {
 		ll.removeLast();
 		
 		System.out.println(ll.get(0));
-		System.out.println(ll);
+		System.out.println(ll+"\n");
 		
+		for(Object i:ll) {
+			System.out.println(i);
+		}
+		 
 		
 		
 		
