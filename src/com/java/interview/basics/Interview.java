@@ -27,7 +27,7 @@ public class Interview {
 		byte c = 't';
 		int ai = c;
 		
-		int asciinum = (int)c;
+		int asciinum = c;
 		System.out.println("ascii value is: " + asciinum + ai);
 	}
 	

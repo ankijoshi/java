@@ -17,8 +17,7 @@ public class wrapper {
 		String s = String.valueOf(d);    //conversiion double to string
 		System.out.println(s+3);
 		
-		int ii = 456;
-		String ss=s.to
+		
 	}
 
 }
