@@ -1,41 +1,41 @@
 package everyday.misc;
 
-import java.time.Clock;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import com.inbuilt.classes.Hashmap;
+import com.inbuilt.classes.Hashset;
 
 public class A_WHITEBOARD {
 
 	public static void main(String[] args) {
+		HashMap<String, Integer> hm = new HashMap<String, Integer>();
+		hm.put("hi", 1);
+		hm.put("a", 2);
+		hm.put("yoooo", 3);
+		hm.put("aa", 4);
+		hm.put("aaaa", 5);
 		
-		HashSet <String> hs = new HashSet<String>();
-		hs.add("hey");
-		hs.add("hey");
-		hs.add("who");
-		hs.add("you");
-		hs.forEach((i)->System.out.println(i));
+		System.out.println(hm);
+		int i = (int)Math.random();
+		System.out.println(i);
+			
+	}
 		
-		ArrayList<Integer> ar = new ArrayList<Integer>();
-		ar.add(34);
-		ar.add(23);
-		ar.add(34);
-		ar.add(12);
-		ar.forEach((ii)->System.out.println(ii));
+		
+			
+	
 	
 		
-		
-		
-		
-		
-		
-	}
 	
-	public void timing() {
-		
-	}
-
 }
+
+	
